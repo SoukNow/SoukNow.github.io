@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>嘉嘉</title>
+  <title>那些想给嘉嘉的</title>
   <meta name="Description" content="Home Page of iissnan">
   <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
   <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
@@ -19,8 +19,22 @@
       <span class="quote-icon quote-icon-start animate-slide-in-down">
         <i class="icon icon-quotes-left"></i>
       </span>
-      <p class="quote-content animate-slide-in-down">所谓伟大的事业，就是要让自己的梦想成真。</p>
-      <p class="quote-author animate-slide-in-down">《沉默的大多数》—— <em>王小波</em></p>
+      <p class="quote-content1 animate-slide-in-down">我想送你一颗星星</p>
+	  <p class="quote-content1 animate-slide-in-down">以及一起抬头看向星空的瞬间</p>
+	  <p class="quote-content2 animate-slide-in-down">我想送你月亮的意象</p>
+	  <p class="quote-content2 animate-slide-in-down">以及那些试图拍下月亮分享的瞬间</p>
+	  <p class="quote-content3 animate-slide-in-down">我想送你几片不同季节的叶子</p>
+	  <p class="quote-content3 animate-slide-in-down">以及一起牵手路过的树和落叶的瞬间</p>
+	  <p class="quote-content4 animate-slide-in-down">我想送你一幅秋天的画</p>
+	  <p class="quote-content4 animate-slide-in-down">以及从现在起所有未来的季节</p>
+	  <p class="quote-content4 animate-slide-in-down">季节变迁的瞬间</p>
+	  <p class="quote-content5 animate-slide-in-down">和</p>
+	  <p class="quote-content5 animate-slide-in-down">一句被写下的赠语</p>
+	  <p class="quote-content5 animate-slide-in-down">以及</p>
+	  <p class="quote-content5 animate-slide-in-down">被爱包围</p>
+	  <p class="quote-author animate-slide-in-down"> </p>
+      <p class="quote-author animate-slide-in-down"><em>这些就是我想给你的</em></p>
+	  <p class="quote-author animate-slide-in-down"><em>有关于爱</em></p>
       <span class="quote-icon quote-icon-end animate-slide-in-up">
         <i class="icon icon-quotes-right"></i>
       </span>
@@ -75,10 +89,22 @@
           animate('.quote-icon-end', SLIDE_IN_UP)
         )
           .then(function () {
-            return animate('.quote-content', SLIDE_IN_DOWN);
+            return animate('.quote-content1', SLIDE_IN_DOWN,1500);
+          })
+		            .then(function () {
+            return animate('.quote-content2', SLIDE_IN_DOWN,2500);
+          })
+		            .then(function () {
+            return animate('.quote-content3', SLIDE_IN_DOWN,2500);
+          })
+		            .then(function () {
+            return animate('.quote-content4', SLIDE_IN_DOWN,2500);
+          })
+		            .then(function () {
+            return animate('.quote-content5', SLIDE_IN_DOWN,3000);
           })
           .then(function () {
-            return animate('.quote-author', SLIDE_IN_DOWN);
+            return animate('.quote-author', SLIDE_IN_DOWN,4000);
           });
       }
 
