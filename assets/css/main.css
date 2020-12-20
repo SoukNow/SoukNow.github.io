@@ -185,7 +185,7 @@ ul, ol { list-style: none; }
 
 /* LIGHT MODE
 /* ================================================= */
-html { background-color: white; }
+/* html { background-color: white; }
 body { color: #333; }
 ::selection { background: #222; color: white; }
 h1 { color: #222; }
@@ -196,7 +196,7 @@ a { color: #333; }
 .links a { border-bottom-color: #999; }
 .links a:hover { border-bottom-color: #333; }
 .location { color: #666; }
-.relocating { color: #ccc; }
+.relocating { color: #ccc; } */
 
 
 /* DARK MODE 自动切换
@@ -216,7 +216,7 @@ a { color: #99A3BA; }
 .location { color: #6C7486; }
 }
 
-@media (prefers-color-scheme: light) {
+@media not (prefers-color-scheme: dark) {
 html { background-color: white; }
 body { color: #333; }
 ::selection { background: #222; color: white; }
