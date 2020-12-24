@@ -26,7 +26,7 @@
 	  <p class="quote-content3 animate-slide-in-down">我想送你几片不同季节的叶子</p>
 	  <p class="quote-content3 animate-slide-in-down">以及一起牵手路过的树和落叶的瞬间</p>
 	  <p class="quote-content4 animate-slide-in-down">我想送你一幅秋天的画</p>
-	  <p class="quote-content4 animate-slide-in-down">以及从现在起所有未来的季节</p>
+	  <p class="quote-content4 animate-slide-in-down">以及从今年秋天起所有未来的季节</p>
 	  <p class="quote-content4 animate-slide-in-down">季节变迁的瞬间</p>
 	  <p class="quote-content5 animate-slide-in-down">和</p>
 	  <p class="quote-content5 animate-slide-in-down">一句被写下的赠语</p>
@@ -84,22 +84,22 @@
           animate('.quote-icon-end', SLIDE_IN_UP)
         )
           .then(function () {
-            return animate('.quote-content1', SLIDE_IN_DOWN,1500);
+            return animate('.quote-content1', SLIDE_IN_DOWN,2500);
           })
 		            .then(function () {
-            return animate('.quote-content2', SLIDE_IN_DOWN,2500);
+            return animate('.quote-content2', SLIDE_IN_DOWN,3500);
           })
 		            .then(function () {
-            return animate('.quote-content3', SLIDE_IN_DOWN,2500);
+            return animate('.quote-content3', SLIDE_IN_DOWN,3500);
           })
 		            .then(function () {
-            return animate('.quote-content4', SLIDE_IN_DOWN,2500);
+            return animate('.quote-content4', SLIDE_IN_DOWN,3500);
           })
 		            .then(function () {
-            return animate('.quote-content5', SLIDE_IN_DOWN,3000);
+            return animate('.quote-content5', SLIDE_IN_DOWN,4000);
           })
           .then(function () {
-            return animate('.quote-author', SLIDE_IN_DOWN,4000);
+            return animate('.quote-author', SLIDE_IN_DOWN,5000);
           });
       }
 
@@ -116,8 +116,8 @@
 
       function animateLocation() {
         return $.when(
-          animate('.location-icon', SLIDE_IN_UP,2000),
-          animate('.location-text', SLIDE_IN_DOWN,2000)
+          animate('.location-icon', SLIDE_IN_UP,3000),
+          animate('.location-text', SLIDE_IN_DOWN,3000)
         );
       }
 
