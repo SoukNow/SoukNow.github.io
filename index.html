@@ -33,8 +33,8 @@
 	  <p class="quote-content5 animate-slide-in-down">以及</p>
 	  <p class="quote-content5 animate-slide-in-down">被爱包围</p>
 	  <br>
-      <p class="quote-author animate-slide-in-down"><em>这些就是我想给你的</em></p>
-	  <p class="quote-author animate-slide-in-down"><em>有关于爱</em></p>
+      <p class="quote-author1 animate-slide-in-down"><em>这些就是我想给你的</em></p>
+	  <p class="quote-author2 animate-slide-in-down"><em>有关于爱</em></p>
       <span class="quote-icon quote-icon-end animate-slide-in-up">
         <i class="icon icon-quotes-right"></i>
       </span>
@@ -99,7 +99,10 @@
             return animate('.quote-content5', SLIDE_IN_DOWN,4000);
           })
           .then(function () {
-            return animate('.quote-author', SLIDE_IN_DOWN,5000);
+            return animate('.quote-author1', SLIDE_IN_DOWN,5000);
+          })
+	      .then(function () {
+            return animate('.quote-author2', SLIDE_IN_DOWN,4000);
           });
       }
 
